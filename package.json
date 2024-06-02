@@ -1,0 +1,21 @@
+{
+  "name": "afl-stats-scraper",
+  "version": "1.0.0",
+  "description": "AFL Player statistics scraper",
+  "main": "index.js",
+  "repository": "git@github.com:wethanet/afl-stats-scraper.git",
+  "author": "Andrew McCallum <andrew@wetha.net>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "crypto": "^1.0.1",
+    "phantomjs": "^2.1.7",
+    "playwright": "^1.44.1",
+    "puppeteer": "^22.10.0",
+    "x-ray": "^2.3.4",
+    "x-ray-phantom": "^1.0.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
